@@ -46,6 +46,7 @@
                         <tr>
                             <th>ID</th>
                             <th>用户名</th>
+                            <th>权限</th>
                             <th>状态</th>
                             <th>最后登录</th>
                             <th>创建时间</th>
@@ -62,6 +63,7 @@
                                         </label>
                                     </th>
                                     <td><?php echo $value['username']; ?></td>
+                                    <td><?php echo $value['admin_permission']; ?></td>
                                     <td><?php echo $statuss[$value['status']]; ?></td>
                                     <td><?php echo $value['login_time']; ?></td>
                                     <td><?php echo $value['create_time']; ?></td>
