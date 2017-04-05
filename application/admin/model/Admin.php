@@ -14,12 +14,4 @@ class Admin extends model\AdminBase
     {
         parent::initialize();
     }
-    
-    public function getAdmin($per=20, $suffix=array()) 
-    {
-        $sql = "SELECT * FROM admin WHERE id > 0";
-        $result = $this->getPageSqlQuery($sql, $per, $suffix);
-        return $result;
-    }
-    
 }
