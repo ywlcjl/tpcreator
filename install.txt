@@ -4,10 +4,9 @@ TpCreator
 1, 配置ThinkPHP 5框架, 将域名tpcreator.local解释到public/目录作为访问目录. (如有疑问请查阅ThinkPHP 5官方手册)
 2, 新建mysql数据库tpcreator 编码为utf-8, 导入tpcreator.sql,并修改application/database.php对应的mysql账号密码等选项.
 3, 本地访问请修改host文件，使域名tpcreator.local指向到本地127.0.0.1
-4, 本软件需要使用PHP的Composer功能, 安装Composer使用搜索引擎查询. 
+4, 本软件需要使用PHP的Composer功能, 安装Composer使用搜索引擎查询.
 cd到软件根目录执行安装扩展库命令:
 composer require topthink/think-captcha
-composer require topthink/think-image
 
 5, 打开浏览器访问tpcreator.local
 
