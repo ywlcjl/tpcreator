@@ -12,7 +12,9 @@ CMS内容管理系统功能包括: 管理员, 权限, 文章分类, 文章, 文�
 
 ## 安装说明
 
-请自行阅读目录下的 install.txt
+* PHP环境需要5.4以上 (这是ThinkPHP最低要求)
+* 需要安装Composer管理扩展包, 使用think-captcha, think-image
+* 详细请自行阅读目录下的 install.txt
 
 ## 更多内容
 * ThinkPHP  http://www.thinkphp.cn
