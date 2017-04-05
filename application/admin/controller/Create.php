@@ -840,8 +840,8 @@ sss;
                 
         $str = <<<sss
 <?php tc_view(MODULE_VIEW.'public/header', array(
-    'title' => '$tTableName',
-    'onView' => '$tTableName',
+    'title' => '{$tTableName}列表',
+    'onView' => '{$tTableName}',
 )); ?>
 
 <script type="text/javascript">
@@ -1221,7 +1221,7 @@ model;
         
         $str = <<<model
 <?php tc_view(MODULE_VIEW.'public/header', array(
-    'title' => '{$tTableName}',
+    'title' => '编辑{$tTableName}',
     'onView' => '{$tTableName}',
 )); ?>
 
