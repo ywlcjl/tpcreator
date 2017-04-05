@@ -69,6 +69,7 @@
                                         <li <?php if ($onView == 'adminPermission'): ?>class="active"<?php endif; ?>><a href="<?php echo MODULE_URL; ?>adminPermission">权限</a></li>
                                         <li role="separator" class="divider"></li>
                                         <li <?php if ($onView == 'setting'): ?>class="active"<?php endif; ?>><a href="<?php echo MODULE_URL; ?>setting">系统设置</a></li>
+                                        <li <?php if ($onView == 'cronLog'): ?>class="active"<?php endif; ?>><a href="<?php echo MODULE_URL; ?>cronLog">日志</a></li>
                                         <li <?php if ($onView == 'maintain'): ?>class="active"<?php endif; ?>><a href="<?php echo MODULE_URL; ?>index/maintain">维护</a></li>
                                         <li <?php if ($onView == 'create'): ?>class="active"<?php endif; ?>><a href="<?php echo MODULE_URL; ?>create">代码生成</a></li>
                                     </ul>

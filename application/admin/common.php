@@ -85,3 +85,22 @@ function tc_admin_check_permission($permission)
     }
     return FALSE;
 }
+
+/**
+ * 写入后台操作日志
+ * @param type $type
+ * @param type $log
+ */
+function tc_admin_log($type, $log)
+{
+    $cronLog = model('cronLog');
+    
+    $param = array(
+        'type' => $type,
+        'admin_id' => session('adminId'),
+        'memo' => $log,
+        'status' => 1,
+    );
+    
+    $cronLog->toSave($param);
+}
