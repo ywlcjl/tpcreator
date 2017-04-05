@@ -1,7 +1,5 @@
 # TpCreator
 
-## 简介
-
 TpCreator一个基于ThinkPHP 5和Bootstrap 3开发的通用网站后台系统.
 
 ## 基础功能
