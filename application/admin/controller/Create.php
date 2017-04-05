@@ -251,7 +251,7 @@ model;
                     //获取状态选项的的处理
                     $statuss = $this->_getArrays($column['COLUMN_COMMENT']);
 
-                    $firstColumnName = $this->_getTuoName($column['COLUMN_NAME']);
+                    $firstColumnName = $this->_getTableClassName($column['COLUMN_NAME']);
 
                     //生成代码
                     if ($statuss) {
