@@ -126,6 +126,23 @@ CREATE TABLE `attach` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 -- ----------------------------
+--  Table structure for `cron_log`
+-- ----------------------------
+DROP TABLE IF EXISTS `cron_log`;
+CREATE TABLE `cron_log` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `type` tinyint(4) DEFAULT '0' COMMENT '类型$array$0:未分类|1:默认',
+  `memo` varchar(255) DEFAULT '' COMMENT '日志',
+  `admin_id` int(11) DEFAULT '0' COMMENT '管理员ID$id$admin',
+  `status` tinyint(4) DEFAULT '0' COMMENT '状态$array$0:待审核|1:已启用|2:已作废',
+  `update_time` datetime DEFAULT '0000-00-00 00:00:00' COMMENT '更新时间',
+  `create_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+SET FOREIGN_KEY_CHECKS = 1;
+
+-- ----------------------------
 --  Table structure for `example`
 -- ----------------------------
 DROP TABLE IF EXISTS `example`;
