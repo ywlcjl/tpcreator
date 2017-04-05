@@ -133,10 +133,11 @@ CREATE TABLE `example` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) NOT NULL DEFAULT '' COMMENT '名称',
   `desc_txt` text COMMENT '描述',
-  `price` float NOT NULL DEFAULT '0' COMMENT '$max$',
+  `price` float NOT NULL DEFAULT '0' COMMENT '价格$max$',
   `article_id` int(11) NOT NULL DEFAULT '0' COMMENT '文章ID$id$article',
+  `article_category_id` int(11) DEFAULT '0' COMMENT '文章分类ID$id$article_category',
   `status` tinyint(4) NOT NULL DEFAULT '0' COMMENT '状态$array$0:停用|1:启用',
-  `post_time` date NOT NULL DEFAULT '0000-00-00' COMMENT '发布时间',
+  `post_time` date NOT NULL DEFAULT '0000-00-00',
   `update_time` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   `create_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
