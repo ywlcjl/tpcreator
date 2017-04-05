@@ -14,7 +14,7 @@ class Index
             <p><b>基础功能:</b> CMS内容管理系统功能包括: 管理员, 权限, 文章分类, 文章, 文章附件, 系统设置等.</p>
             <p><b>特色功能:</b> 自动生成代码: 能够根据配置的数据表字段描述动生成对应的model, controller, view的等后台文件, 提高开发效率.</p>
             <p>&nbsp;</p>
-            <p>安装说明: 请自行查看跟目录下readme.txt</p>
+            <p>安装说明: 请自行查看跟目录下install.txt</p>
             <p>&nbsp;</p>
             <p>更多ThinkPHP的内容: <a href="http://www.thinkphp.cn/" target="_blank">ThinkPHP</a></p>
             <p>更多Bootstrap的内容: <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>, &nbsp;&nbsp;<a href="http://www.bootcss.com/" target="_blank">Bootstrap中文网</a>.</p>

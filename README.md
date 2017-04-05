@@ -12,7 +12,7 @@ CMS内容管理系统功能包括: 管理员, 权限, 文章分类, 文章, 文�
 
 ## 安装说明
 
-请自行阅读目录下的 readme.txt
+请自行阅读目录下的 install.txt
 
 ## 更多内容
 * ThinkPHP  http://www.thinkphp.cn
