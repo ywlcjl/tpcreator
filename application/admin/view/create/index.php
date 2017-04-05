@@ -35,13 +35,26 @@
             <div class="form-group">
                 <p>&nbsp;</p>
                 <p>该功能能够自动创建新数据表的模型,控制器,视图的代码. </p>
-                <p><span class="bg-warning">警告:若该表已存在对应的model,controller,view的文件则会被自动覆盖.</span></p>
+                <p><span class="bg-danger">警告:若该表已存在对应的model,controller,view的文件则会被自动覆盖.</span></p>
                 <p>测试请输入: example</p>
                 <p>&nbsp;</p>
                 <p>在数据表的字段描述填入魔法字符则会生成对应的特殊功能:</p>
-                <p>$array$0:停用|1:启用 &nbsp;(说明: $array$键值:键名|键值:键名 例如字段为status需要有两个状态数组)</p>
-                <p>$id$article &nbsp;(说明: $id$表名 例如字段article_id为关联article表的id)</p>
-                <p>$max$ &nbsp;(说明: 常用于price价格等需要最大值和最小值的字段)</p>
+                <table class="table">
+                    <tr>
+                        <td>状态$array$0:停用|1:启用</td>
+                        <td>(说明: $array$键值:键名|键值:键名   例如字段为status需要有两个状态数组)</td>
+                    </tr>
+                    <tr>
+                        <td>文章ID$id$article</td>
+                        <td>(说明: $id$表名   例如字段article_id为关联article表的id)</td>
+                    </tr>
+                    <tr>
+                        <td>价格$max$</td>
+                        <td>(说明: 常用于price价格等需要最大值和最小值的字段)</td>
+                    </tr>
+                </table>
+                <p>&nbsp;</p>
+                <p>中文名称描述也可以留空.例如: $array$0:停用|1:启用</p>
                 <p>&nbsp;</p>
                 <p>详细请查看example表.</p>
                 <p>默认保留字段: id, update_time, create_time 在创建表时必须要有, 具体参考example表.</p>
