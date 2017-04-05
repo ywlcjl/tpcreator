@@ -1164,7 +1164,7 @@ sss;
 
 
 sss;
-                } else if ($column['COLUMN_COMMENT'] == '$max$' && in_array($column['DATA_TYPE'], array('int', 'tinyint', 'smallint', 'mediumint', 'bigint', 'float', 'double', 'decimal'))) {
+                } else if ( stripos($column['COLUMN_COMMENT'], '$max$') !== false && in_array($column['DATA_TYPE'], array('int', 'tinyint', 'smallint', 'mediumint', 'bigint', 'float', 'double', 'decimal'))) {
                     //大小于号生成
                     $columnNameTuo = $this->_getTuoName($column['COLUMN_NAME']);
                     
