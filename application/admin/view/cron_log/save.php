@@ -1,5 +1,5 @@
 <?php tc_view(MODULE_VIEW.'public/header', array(
-    'title' => '编辑cronLog',
+    'title' => '编辑后台日志',
     'onView' => 'cronLog',
 )); ?>
 
@@ -11,7 +11,7 @@
 
 <div class="row">
     <div class="col-md-6">
-        <p class="bd_title">编辑cronLog</p>
+        <p class="bd_title">编辑后台日志</p>
     </div>
     <div class="col-md-6">
         <p class="text-right"><a href="<?php echo MODULE_URL; ?>cronLog/index">返回列表</a></p>
