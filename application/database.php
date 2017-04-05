@@ -17,9 +17,9 @@ return [
     // 数据库名
     'database'        => 'tpcreator',
     // 用户名
-    'username'        => 'root',
+    'username'        => '',
     // 密码
-    'password'        => 'ywl841214',
+    'password'        => '',
     // 端口
     'hostport'        => '',
     // 连接dsn
