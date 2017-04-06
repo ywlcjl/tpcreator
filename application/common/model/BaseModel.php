@@ -122,7 +122,7 @@ class BaseModel extends Model
         $countSql = $sql;
         
         //使用正则替换SQL, 生成count(*)统计查询分页总数
-        $pattern = '/^SELECT.*FROM/';
+        $pattern = '/^SELECT.*FROM/i';
         $queryCount = preg_replace($pattern,'SELECT COUNT(*) AS total FROM', $countSql); 
 
         //返回数组
