@@ -17,7 +17,7 @@
 error_reporting(E_ALL & ~E_NOTICE);
 
 //产品号 ~tc
-define('TC_VERSION', '1.0');
+define('TC_VERSION', '1.0.1');
 
 //应用公共函数
 /**

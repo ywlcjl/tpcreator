@@ -1,15 +1,13 @@
 TpCreator
 
 安装说明:
-1, 配置ThinkPHP 5框架, 将域名tpcreator.local解释到public/目录作为访问目录. (如有疑问请查阅ThinkPHP 5官方手册)
+1, 配置ThinkPHP 5框架, 将域名tpcreator.local解析到tpcreator/public/目录作为访问目录. (如有疑问请查阅ThinkPHP 5官方手册)
 2, 新建mysql数据库tpcreator 编码为utf-8, 导入tpcreator.sql,并修改application/database.php对应的mysql账号密码等选项.
 3, 本地访问请修改host文件，使域名tpcreator.local指向到本地127.0.0.1
-4, 本软件需要使用PHP的Composer功能, 安装Composer使用搜索引擎查询.
-cd到软件根目录执行安装扩展库命令:
-composer require topthink/think-captcha
-
+4, 本软件使用PHP的Composer功能, 由于ThinkPHP的Composer对旧版本框架支持不友好，所以已在vendor加入官方的完整版扩展代码，如有疑问请自行查阅官方文档。
 5, 打开浏览器访问tpcreator.local
 
 关于ThinkPHP 5框架说明:
+ThinkPHP框架版本已经升级到5.0.24，SQL注入漏洞按照官网的说法是已经修复，具体请查看官方网站。
 ThinkPHP 5最低要求环境是 PHP本软件没有修改过ThinkPHP框架的源代码, 如对框架有疑问, 请自行查阅thinkphp.cn官网的手册. 本软件可以随官方框架进行升级, 如需升级, 请自行查阅官方说明.
 
