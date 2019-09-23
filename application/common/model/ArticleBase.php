@@ -5,7 +5,7 @@
 
 namespace app\common\model;
 
-use app\common\model;
+use app\common\model\BaseModel;
 
 class ArticleBase extends BaseModel
 {

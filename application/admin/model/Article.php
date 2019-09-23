@@ -6,9 +6,9 @@
 
 namespace app\admin\model;
 
-use app\common\model;
+use app\common\model\ArticleBase;
 
-class Article extends model\ArticleBase
+class Article extends ArticleBase
 {
     
     protected function initialize()

@@ -6,9 +6,9 @@
 
 namespace app\admin\model;
 
-use app\common\model;
+use app\common\model\AdminBase;
 
-class Admin extends model\AdminBase
+class Admin extends AdminBase
 {   
     protected function initialize()
     {

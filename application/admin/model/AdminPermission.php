@@ -6,9 +6,9 @@
 
 namespace app\admin\model;
 
-use app\common\model;
+use app\common\model\AdminPermissionBase;
 
-class AdminPermission extends model\AdminPermissionBase
+class AdminPermission extends AdminPermissionBase
 {
     
     protected function initialize()

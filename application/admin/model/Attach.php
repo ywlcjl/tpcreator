@@ -6,9 +6,9 @@
 
 namespace app\admin\model;
 
-use app\common\model;
+use app\common\model\AttachBase;
 
-class Attach extends model\AttachBase
+class Attach extends AttachBase
 {
     
     protected function initialize()

@@ -6,9 +6,9 @@
 
 namespace app\admin\model;
 
-use app\common\model;
+use app\common\model\CronLogBase;
 
-class Setting extends model\SettingBase
+class Setting extends SettingBase
 {
     
     protected function initialize()

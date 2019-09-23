@@ -6,9 +6,9 @@
 
 namespace app\admin\model;
 
-use app\common\model;
+use app\common\model\CronLogBase;
                 
-class CronLog extends model\CronLogBase
+class CronLog extends CronLogBase
 {
 
     protected function initialize()
